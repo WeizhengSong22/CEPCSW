@@ -47,14 +47,14 @@
   </limits>
   <include ref="display.xml"/>
   <include ref="Beampipe_o1_v01_01.xml"/>
-  <include ref="vxd07.xml"/>
-  <include ref="ftd_cepc.xml"/>
+  <include ref="vxd07_01.xml"/>
+  <include ref="ftd_cepc_01.xml"/>
   <include ref="sit_simple_planar_sensors_01.xml"/>
   <include ref="tpc10_01.xml"/>
   <include ref="set_simple_planar_sensors_01.xml"/>
   <!--include ref="SEcal05_siw_Barrel.xml"/>
   <include ref="SEcal05_siw_Endcaps.xml"/>
-  <include ref="SEcal05_siw_ECRing.xml"/>
+  <include ref="SEcal05_siw_ECRing_01.xml"/>
   <include ref="Hcal_Barrel_SD_v01.xml"/>
   <include ref="Hcal_Endcaps_SD_v01.xml"/>
   <include ref="Hcal_EndcapRing_SD_v01.xml"/>
@@ -78,7 +78,7 @@
   <fields>
     <field name="GlobalSolenoid" type="solenoid"
            inner_field="Field_nominal_value"
-           outer_field="outerField_nominal_value"
+           outer_field="Field_outer_nominal_value"
            zmax="TPC_Ecal_Hcal_barrel_halfZ + Coil_extra_size"
            outer_radius="Hcal_outer_radius + Coil_thickness/2">
     </field>
